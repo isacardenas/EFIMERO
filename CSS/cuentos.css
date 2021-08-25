@@ -1,0 +1,129 @@
+@charset "utf-8";
+
+.container {
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 40em;
+  justify-content: center;
+  align-items: center;
+  background: repeat no-repeat;
+  background-size: 100%;
+}
+
+  {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap
+}
+
+body {
+  background-image: url("../IMG/cuentos.jpg");
+  background-repeat: no-repeat;
+  background-size: 350px;
+  background-position: center 0px;
+}
+
+.audio {
+  z-index: 100;
+  width: 15%;
+  position: absolute;
+  top: 35%;
+  right: 38%;
+}
+
+.audio2 {
+  z-index: 100;
+  position: absolute;
+  top: 50%;
+  right: 38%;
+  width: 15%;
+}
+
+.audio3 {
+  z-index: 100;
+  position: absolute;
+  top: 66%;
+  right: 38%;
+  width: 15%;
+}
+
+img {
+  margin: transparent;
+  height: 150%;
+  background: no-repeat;
+  width: 100%;
+  position: absolute;
+}
+
+.imgA1 {
+  z-index: 1;
+  display: 60%;
+}
+
+.imgB1 {
+  z-index: 3;
+  width: 6%;
+  height: auto;
+  right: 53%;
+  top: 33%;
+
+}
+
+@supports(object-fit: cover) {
+  .imgB1 img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+@supports(object-fit: cover) {
+  .audio img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+.imgB2 {
+  z-index: 3;
+  width: 6%;
+  height: auto;
+  right: 53%;
+  top: 48%;
+}
+
+@supports(object-fit: cover) {
+  .imgB2 img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+.imgB3 {
+  z-index: 3;
+  width: 6%;
+  height: auto;
+  right: 53%;
+  top: 63%;
+}
+
+@supports(object-fit: cover) {
+  .imgB3 img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}
+
+@supports(object-fit: cover) {
+  .imgB4 img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+  }
+}

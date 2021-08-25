@@ -1,0 +1,83 @@
+/*css*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../IMG/Mandalas/prototipos/animatext/fondo\ anímate.jpg);
+    background-color: #f8f8f6;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: 24%;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #e19b72;
+}
+
+.fondo {
+    margin: 0;
+    width: 3%;
+    height: 47%;
+    top: 2%;
+    position: absolute;
+    left: 37%;
+    padding: 10%;
+    border: navajowhite 20px solid;
+}
+
+.boton1,
+.boton2 {
+    width: 3%;
+    height: 4.5;
+    left: 40%;
+    top: 10%;
+    position: absolute;
+    position: fixed;
+    background-color: transparent;
+    border: none;
+}
+
+.boton2 {
+    /* background-color: cornflowerblue; */
+    left: 43%;
+}
+
+/* .boton1 {
+    background-color:darkkhaki;
+} */
+
+.caja1 {
+    width: auto;
+    left: 30%;
+    margin-top: 10%;
+    background-color: #f59032;
+    border-radius: 20px;
+    padding: 4% 4% 4% 8%;
+    font-size: 90%;
+}
+
+.caja2 {
+    width: auto;
+    left: 30%;
+    margin-top: 10%;
+    background-color: #f59c32;
+    border-radius: 20px;
+    padding: 4% 4% 4% 8%;
+    font-size: 90%;
+    text-align: center;
+    text-justify: auto;
+}
+
+.pp {
+    width: 19%;
+    left: 39.2%;
+    top: 27%;
+    /* background: rgba(255, 0, 0, 0.205) ; */
+    position: absolute;
+    display: inline;
+    border-radius: 50px;
+    text-align: center;
+    padding: 1.3%;
+}

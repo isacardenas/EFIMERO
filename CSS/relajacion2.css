@@ -1,0 +1,29 @@
+/* CSS Document */
+#barra {
+    position: absolute;
+    top: 30%;
+}
+
+body {
+    font-family: 'open sans';
+    background: url(../IMG/Yoga/fondorelajacion.jpg);
+    background-color: #f8f8f6;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: 30%;
+    background-color: #90abdf;
+}
+
+button {
+    width: 50%;
+    right: 13%;
+    background-color: transparent;
+    border: none;
+}
+
+.contenidos {
+    width: 15%;
+    text-align: left;
+    font-style: normal;
+}

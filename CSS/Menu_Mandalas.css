@@ -1,0 +1,227 @@
+/*css*/
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    background: url(../IMG/Mandalas/prototipos/Mandalas/fondo_mandalas_1.jpg);
+    background-color: #f8f8f6;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: 24% auto;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    background-color: #1EABBA;
+
+}
+
+/*#65CFDB  */
+/* #1EABBA */
+
+.fondo {
+
+    margin: 0;
+    width: 3%;
+    height: 47%;
+    top: 2%;
+    left: 37%;
+    padding: 10%;
+    border: #64ccd8 20px solid;
+    position: fixed;
+
+}
+
+.boton_atras {
+
+    width: 5%;
+    position: absolute;
+    left: 38.3%;
+    top: 3.87%;
+    z-index: 5;
+
+}
+
+.contenedor {
+
+    position: relative;
+    position: fixed;
+    /* border: rgb(224, 64, 64) 3px solid; */
+    width: auto;
+    height: 572px;
+    left: 38.2%;
+    top: 29px;
+    margin-bottom: 30%;
+    overflow: scroll;
+    overflow-x: visible;
+    overflow-y: scroll;
+    display: inline-block;
+
+}
+
+.contenedor::-webkit-scrollbar {
+    background: transparent;
+}
+
+
+.base_mandalas {
+    overflow: scroll;
+    width: 310px;
+
+}
+
+.caja1 {
+    margin-top: 35%;
+    /* margin-top: 10%; */
+}
+
+button {
+
+    border: none;
+    background: none;
+
+}
+
+.encabezado {
+    width: 23%;
+    z-index: 4;
+    position: absolute;
+    left: 38.4%;
+    top: 4.6%;
+    /* border: rgb(124, 73, 73) 1px solid; */
+}
+
+
+
+
+@media (min-height:700px) {
+    body {
+        background: url(../IMG/Mandalas/prototipos/Mandalas/fondo_mandalas_1.jpg);
+        background-color: #f8f8f6;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 15%;
+        background-size: 24% 85%;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Patrick Hand', cursive;
+        background-color: #1EABBA;
+    }
+    .contenedor {
+
+        position: relative;
+        position: fixed;
+        border: rgb(224, 64, 64) 3px solid;
+        width: auto;
+        height: 83%;
+        left: 38.2%;
+        top: 29px;
+        margin-bottom: 30%;
+        overflow: scroll;
+        overflow-x: visible;
+        overflow-y: scroll;
+        display: inline-block;
+    
+    }
+}
+
+
+
+
+/* responsive para moviles */
+@media (max-width:550px) {
+
+    .fondo {
+        display: none;
+    }
+
+    body {
+        background: url(../IMG/Mandalas/prototipos/Mandalas/fondo_mandalas_1.jpg);
+        background-color: #f8f8f6;
+        background-repeat: no-repeat;
+        position: fixed;
+        background-size: 100% auto;
+        font-family: 'Dosis', sans-serif;
+        font-family: 'Patrick Hand', cursive;
+        background-color: #1EABBA;
+    }
+
+    .encabezado {
+        width: 100%;
+        bottom: 25px;
+        left: 0px;
+        margin: auto;
+        position: relative;
+        /* border: red 2px  solid; */
+        justify-self: center;
+    }
+
+    .contenedor {
+        position: relative;
+        position: fixed;
+        width: auto;
+        height: 100%;
+        left: 3%;
+        overflow: scroll;
+        overflow-x: visible;
+        overflow-y: scroll;
+        display: inline-block;
+    }
+
+    .base_mandalas {
+        overflow: scroll;
+        /* width: 360px; */
+        width: 100%;
+    }
+
+    .boton_atras {
+        width: 23%;
+        position: absolute;
+        left: 0%;
+        top: -3%;
+        z-index: 5;
+    }
+
+    @media(min-height:370px) {
+        .fondo {
+            display: none;
+            border: none;
+            padding: none;
+        }
+
+        body {
+            background: url(../IMG/Mandalas/prototipos/Mandalas/fondo_mandalas.jpg);
+            background-color: #f8f8f6;
+            background-repeat: repeat-y;
+            position: fixed;
+            height: 100%;
+            background-size: 100% auto;
+            font-family: 'Dosis', sans-serif;
+            font-family: 'Patrick Hand', cursive;
+            background-color: #1EABBA;
+        }
+
+        .encabezado {
+            width: 100%;
+            top: -3%;
+            left: 0px;
+            margin: auto;
+            position: relative;
+            /* border: red 2px  solid; */
+            justify-self: center;
+        }
+
+        .boton_atras {
+            width: 24%;
+            position: absolute;
+            left: 0%;
+            top: -1.5%;
+            z-index: 5;
+        }
+    }
+
+
+}
